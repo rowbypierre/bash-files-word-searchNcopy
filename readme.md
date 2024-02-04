@@ -56,7 +56,7 @@ This script is a shell script designed to search for a specific keyword in files
 - If the keyword is found (grep output is not empty), the following actions are taken:
    - The filename is extracted using `basename`.
     	```python
-    	fileN=$( basename $file )
+    	fileN=$( basename "$file" )
     	```
    - Information that the file contains the keyword is displayed.
     	```python
