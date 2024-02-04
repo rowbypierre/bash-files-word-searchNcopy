@@ -43,7 +43,7 @@ for dir in $DirS ; do
 				checker=$( grep -ni "$key" "$file" )
 
 				if [ ! -z $checker ] ; then
-					fileN=$( basename $file )
+					fileN=$( basename "$file" )
 					echo "$fileN HAS keyword"
 					echo
 
