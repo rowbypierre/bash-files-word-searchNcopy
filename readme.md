@@ -1,6 +1,8 @@
 # Description
 This script is a shell script designed to search for a specific keyword in files within directories, copy the files containing the keyword to a specified folder, and append information about the occurrences of the keyword to the copied files. 
 
+# Demo
+[`Click here`](https://www.dropbox.com/scl/fi/2csz4xu5wmilmsjfaekcy/file-search-test-20240204.mp4?rlkey=s8td5aa3doxtqysp3rwvsejvh&dl=0)
 # Functionality
 
 1. **Prompt for Keyword:** The script starts by asking the user to enter a keyword that will be searched in files.
